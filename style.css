@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    background-color: rgb(215, 250, 244);
+}
+
+nav {
+    display: flex;
+    padding-right: 100px;
+    gap: 30px;
+}
+
+a {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(78, 116, 219);
+}
+
+a:hover {
+    color: rgb(123, 184, 202);
+}
+
+main {
+    padding: 30px 0;
+}
+
+.Judul {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.Judul h1 {
+    padding-bottom: 5px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(22, 62, 172)
+}
+
+.Judul p {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(231, 150, 164);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    
+}
+
+.items {
+    text-align: center;
+    background: rgb(149, 196, 196);
+    color: rgb(26, 79, 109);
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+
+footer {
+    background-color: rgb(215, 250, 244);
+    height: 160px;
+}
+
+.sticky {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 100px;
+    gap: 100px;
+    height: 50px;
+}
+
+h3 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: right;
+    color: rgb(22, 62, 172)
+}
+
+.list {
+    padding: 0;
+    
+}
+
+.list li {
+    width: auto;
+    padding: 2px;
+    list-style-type: none;
+    text-align: right;
+    position: relative;
+    text-decoration: none;
+}
+
+
+
